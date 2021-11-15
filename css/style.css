@@ -75,12 +75,14 @@ color: white;}
       grid-template-columns: repeat(auto-fill,minmax(285px,1fr));}
       .grid2 {display: grid;
         grid-template-columns: repeat(auto-fill,minmax(391px,1fr));}
+        .gridlogo {    display: grid;
+          grid-template-columns: repeat(auto-fill,minmax(195px,1fr));}
         @media (max-width:639px)  {.grid2 {grid-template-columns: repeat(auto-fill,minmax(320px,1fr));}}
         .specialspan {color: black;text-decoration: line-through;padding-left: 15px;}
         .specialp {color: var(--maincolorone);}
         .flex {display: flex;}
         @media (max-width:918px) {.flex {display: grid;grid-template-columns: repeat(auto-fill,minmax(320px,1fr));}}
-        
+        .border {border: 2px solid var(--maincolortwo);}
     /*end componant*/
 
 /*start landing and header*/
@@ -309,9 +311,21 @@ align-items: center;}
                       margin-top: 35px;}
                     .services .container .women .speciala {background-color: #6ad5ff;
                       margin:0;margin-left:35px ;color: black;margin-top:65px;}
-                      @media (max-width:918px)  {.services .container .n {max-width: 100%;}
-                      .services .container .text {max-width: 100%;}
-                      .services .container .women {padding-bottom: 15px;width: 100%;} }
+                      @media (max-width:918px)  {.services .container .n {max-width: 100%;text-align: center;}
+                      .services .container .text {max-width: 100%;text-align: center;}
+                      .services .container .women {padding-bottom: 15px;width: 100%;} 
+                      .services .container .text .speciala {margin: auto;}}
+                      .services .click {    color: #3753da;
+                        font-weight: 600;
+                        font-size:12pt;
+                        width: fit-content;margin: 25px auto;}
+                        .services .part {    display: flex;
+                          justify-content: center;
+                          align-items: center;
+                        border: 1px solid var(--maincolortwo);}
+                          .services .part img {    max-width: 42%;
+                            padding: 14px;}
+                      
             
                
                 
